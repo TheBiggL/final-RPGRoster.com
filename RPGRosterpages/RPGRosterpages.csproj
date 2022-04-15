@@ -80,18 +80,93 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\crud.mdf" />
+    <Content Include="App_Data\crud_log.ldf">
+      <DependentUpon>crud.mdf</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
+    <Content Include="NWGuildCrud.aspx" />
+    <Content Include="NWImageUpload.aspx" />
+    <Content Include="NWLogin.aspx" />
+    <Content Include="NWLogReg.aspx" />
+    <Content Include="NWRegister.aspx" />
+    <Content Include="NWTempGuild.aspx" />
+    <Content Include="NWTemplateEdit.aspx" />
+    <Content Include="NWTemplateEV.aspx" />
+    <Content Include="NWTemplateView.aspx" />
     <Content Include="Web.config" />
     <Content Include="test.aspx" />
     <Content Include="LogReg.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
-    <Content Include="Crudtest.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="NWGuildCrud.aspx.cs">
+      <DependentUpon>NWGuildCrud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NWGuildCrud.aspx.designer.cs">
+      <DependentUpon>NWGuildCrud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NWImageUpload.aspx.cs">
+      <DependentUpon>NWImageUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NWImageUpload.aspx.designer.cs">
+      <DependentUpon>NWImageUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NWLogin.aspx.cs">
+      <DependentUpon>NWLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NWLogin.aspx.designer.cs">
+      <DependentUpon>NWLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NWLogReg.aspx.cs">
+      <DependentUpon>NWLogReg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NWLogReg.aspx.designer.cs">
+      <DependentUpon>NWLogReg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NWRegister.aspx.cs">
+      <DependentUpon>NWRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NWRegister.aspx.designer.cs">
+      <DependentUpon>NWRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NWTempGuild.aspx.cs">
+      <DependentUpon>NWTempGuild.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NWTempGuild.aspx.designer.cs">
+      <DependentUpon>NWTempGuild.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NWTemplateEdit.aspx.cs">
+      <DependentUpon>NWTemplateEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NWTemplateEdit.aspx.designer.cs">
+      <DependentUpon>NWTemplateEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NWTemplateEV.aspx.cs">
+      <DependentUpon>NWTemplateEV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NWTemplateEV.aspx.designer.cs">
+      <DependentUpon>NWTemplateEV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NWTemplateView.aspx.cs">
+      <DependentUpon>NWTemplateView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NWTemplateView.aspx.designer.cs">
+      <DependentUpon>NWTemplateView.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="test.aspx.cs">
@@ -122,13 +197,6 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Crudtest.aspx.cs">
-      <DependentUpon>Crudtest.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Crudtest.aspx.designer.cs">
-      <DependentUpon>Crudtest.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -140,7 +208,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
