@@ -5,11 +5,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-</head>
+    <style type="text/css">
+        .auto-style1 {
+            margin-left: 0px;
+        }
+    </style>
+    </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
+        <asp:Button ID="NWGuild" runat="server" Text="Manage Guild" OnClick="Guild_Click" Height="60px" Width="200px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <asp:Button ID="NWTemplate" runat="server" Text="Manage Template" OnClick="Template_Click" CssClass="auto-style1" Height="60px" Width="200px" />
     </form>
 </body>
 </html>

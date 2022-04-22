@@ -80,12 +80,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\crud.mdf" />
-    <Content Include="App_Data\crud_log.ldf">
-      <DependentUpon>crud.mdf</DependentUpon>
+    <Content Include="App_Data\RPGRosterDB.mdf" />
+    <Content Include="App_Data\RPGRosterDB_log.ldf">
+      <DependentUpon>RPGRosterDB.mdf</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
-    <Content Include="NWGuildCrud.aspx" />
     <Content Include="NWImageUpload.aspx" />
     <Content Include="NWLogin.aspx" />
     <Content Include="NWLogReg.aspx" />
@@ -96,21 +95,12 @@
     <Content Include="NWTemplateView.aspx" />
     <Content Include="Web.config" />
     <Content Include="test.aspx" />
-    <Content Include="LogReg.aspx" />
-    <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="NWGuildCrud.aspx.cs">
-      <DependentUpon>NWGuildCrud.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="NWGuildCrud.aspx.designer.cs">
-      <DependentUpon>NWGuildCrud.aspx</DependentUpon>
     </Compile>
     <Compile Include="NWImageUpload.aspx.cs">
       <DependentUpon>NWImageUpload.aspx</DependentUpon>
@@ -175,20 +165,6 @@
     </Compile>
     <Compile Include="test.aspx.designer.cs">
       <DependentUpon>test.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="LogReg.aspx.cs">
-      <DependentUpon>LogReg.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LogReg.aspx.designer.cs">
-      <DependentUpon>LogReg.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>

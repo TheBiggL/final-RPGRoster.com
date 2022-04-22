@@ -9,7 +9,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Button ID="NWRegBtn" runat="server" Text="Register" OnClick="NWRegBtn_Click" />
         </div>
+        <asp:Button ID="NWLogBtn" runat="server" Text="Login" OnClick="NWLogBtn_Click" />
     </form>
 </body>
 </html>

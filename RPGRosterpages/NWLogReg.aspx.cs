@@ -13,5 +13,15 @@ namespace RPGRosterpages
 		{
 
 		}
+
+		protected void NWRegBtn_Click(object sender, EventArgs e)
+		{
+			Response.Redirect("NWRegister.aspx");
+		}
+
+		protected void NWLogBtn_Click(object sender, EventArgs e)
+		{
+			Response.Redirect("NWLogin.aspx");
+		}
 	}
 }

@@ -9,13 +9,15 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:HiddenField ID="hfUserID" runat="server" />
             <table>
                 <tr>
                     <td>
                         <asp:Label Text="Username" runat="server" />
                     </td>
                     <td colspan="2">
-                        <asp:TextBox 10="NWUsername" runat="server" />
+                        <asp:TextBox 10 ID="NWUsername" runat="server" />
+                        <asp:Label Text="*" runat="server" ForeColor="Red"/>
                     </td>
                 </tr>
                 <tr>
@@ -23,7 +25,8 @@
                         <asp:Label Text="Password" runat="server" />
                     </td>
                     <td colspan="2">
-                        <asp:TextBox 10="NWPassword" runat="server" />
+                        <asp:TextBox 10  ID="NWPassword" runat="server" TextMode="Password" />
+                        <asp:Label Text="*" runat="server" ForeColor="Red"/>
                     </td>
                 </tr>
                 <tr>
@@ -31,7 +34,8 @@
                         <asp:Label Text="Confirm Password" runat="server" />
                     </td>
                     <td colspan="2">
-                        <asp:TextBox 10="NWPasswordConf" runat="server" />
+                        <asp:TextBox 10 ID="NWPasswordConf" runat="server" TextMode="Password"/>
+                    <asp:Label Text="*" runat="server" ForeColor="Red"/>
                     </td>
                 </tr>
                 <tr>
@@ -39,8 +43,32 @@
                         <asp:Label Text="Email" runat="server" />
                     </td>
                     <td colspan="2">
-                        <asp:TextBox 10="NWEmail" runat="server" />
+                        <asp:TextBox 10 ID="NWEmail" runat="server" />
                     </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <asp:Button Text="Submit" ID="NWRegBtn" runat="server" OnClick="NWRegBtn_Click" />
+
+                    </td>
+
+                </tr>
+                  <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <asp:Label Text="" ID="SuccessMessage" runat="server" ForeColor="Green" />
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <asp:Label Text="" ID="ErrorMessage" runat="server" ForeColor="Red" />
+
+                    </td>
+
                 </tr>
             </table>
         </div>

@@ -13,5 +13,16 @@ namespace RPGRosterpages
 		{
 
 		}
+
+		protected void NWTemplate_Click(object sender, EventArgs e)
+			//wasn't nw before if doesn't work
+		{
+
+		}
+
+		protected void NWGuild_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
