@@ -10,6 +10,9 @@
     <form id="form1" runat="server">
         <div>
         </div>
+        <asp:ImageMap ID="ImageMap1" runat="server" OnClick="ImageMap1_Click">
+        </asp:ImageMap>
+        <asp:FileUpload ID="FileUpload1" runat="server" />
     </form>
 </body>
 </html>
