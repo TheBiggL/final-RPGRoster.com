@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGRoster.com", "RPGRoster.com\RPGRoster.com.csproj", "{8F318E63-582D-442F-A891-41E979457423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewWorldRoster", "NewWorldRoster\NewWorldRoster.csproj", "{2149FE4B-40D4-4B59-AF25-A03C64D86BC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F318E63-582D-442F-A891-41E979457423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F318E63-582D-442F-A891-41E979457423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F318E63-582D-442F-A891-41E979457423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F318E63-582D-442F-A891-41E979457423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2149FE4B-40D4-4B59-AF25-A03C64D86BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2149FE4B-40D4-4B59-AF25-A03C64D86BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2149FE4B-40D4-4B59-AF25-A03C64D86BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2149FE4B-40D4-4B59-AF25-A03C64D86BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C220AE1-0D9F-4993-AF83-DFCE64C5E18B}
+	EndGlobalSection
+EndGlobal
