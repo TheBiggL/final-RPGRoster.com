@@ -110,3 +110,4 @@ C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster
 C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\bin\System.Memory.xml
 C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\bin\System.Numerics.Vectors.xml
 C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\obj\Debug\RPGRoster.com.csproj.AssemblyReference.cache

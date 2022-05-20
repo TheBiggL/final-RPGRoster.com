@@ -66,7 +66,9 @@
                         </td>
                 </tr>
     <tr>
-        <td></td>
+        <td>
+            <asp:Label ID="NWLabel1" runat="server" Text="Label"></asp:Label>
+        </td>
         <%--<td>
             <asp:Button Text ="Player Picture" ID="NWPlayerPic" runat="server" OnClick="NWPlayerPic_Click" />
         </td>--%>

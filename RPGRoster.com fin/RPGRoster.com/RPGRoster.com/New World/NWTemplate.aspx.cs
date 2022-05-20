@@ -15,10 +15,15 @@ namespace RPGRoster.com.New_World
 		SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["dbconnection"].ConnectionString);
 		protected void Page_Load(object sender, EventArgs e)
 		{
+
+			NWLabel1.Text = Session["username"].ToString();
+
 			con.Open();
-			SqlCommand cmd = new SqlCommand("SELECT [USER_TOKEN] From [dbo].[USERS]");
-			cmd.CommandType = System.Data.CommandType.Text;
-			cmd.Connection = con;
+			//SqlCommand cmd = new SqlCommand("SELECT [USER_TOKEN] From [dbo].[USERS]");
+			//cmd.CommandType = System.Data.CommandType.Text;
+			//cmd.Connection = con;
+			SqlCommand cmd = new SqlCommand("select * from USERS where USERNAME=@username", con);
+			cmd.Parameters.AddWithValue("@username", NWLabel1.Text);
 
 			string token = "";
 

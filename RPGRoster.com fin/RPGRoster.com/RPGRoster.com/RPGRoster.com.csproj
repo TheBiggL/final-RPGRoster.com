@@ -211,6 +211,7 @@
     <Content Include="New World\NWTempView.aspx" />
     <Content Include="New World\NWLoginNew.aspx" />
     <Content Include="New World\NWRegisterNew.aspx" />
+    <Content Include="NWAll.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />

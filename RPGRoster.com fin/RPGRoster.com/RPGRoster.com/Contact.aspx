@@ -4,8 +4,9 @@
     <style>
     body {background-color: palegoldenrod;}
         </style>
-    <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
+    <h2><a href="mailto:RPGRoster@gmail.com"><%: Title %>C<span class="text-primary">ontacts</span></a></h2>
+<p>Project Lead - Ryan Anderson - <a href="mailto:RPGRoster@gmail.com">RPGRoster@gmail.com</a></p>
+<p>Please reach out if you have any suggestions or concerns.</p>
     
     
 

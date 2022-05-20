@@ -40,7 +40,8 @@ namespace RPGRoster.com.New_World
                     if (Cryptography.Decrypt(Password).Equals(TextB2s.Text))
                     {
                         NWLab1ss.Text=("Login Success");
-                        Response.Redirect("About.aspx");
+                        Session["username"] = TextB1s.Text.Trim();
+                        Response.Redirect("NWTempGuild.aspx");
                     }
                     else
                     {
