@@ -9,6 +9,9 @@
         .auto-style1 {
             width: 540px;
         }
+
+    body {background-color: palegoldenrod;}
+        
     </style>
 </head>
     

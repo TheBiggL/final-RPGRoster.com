@@ -8,6 +8,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <style>
+    body {background-color: palegoldenrod;}
+        </style>
         <div>
         </div>
     </form>

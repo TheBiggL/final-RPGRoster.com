@@ -5,7 +5,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+
+    <%--<style>
+        .roundedcorner {
+                font-size:11pt;
+                margin-left:auto;
+                margin-right:auto;
+                margin-top:1px;
+                margin-bottom:1px;
+                padding:3px;
+                border-top:1px solid;
+                border-bottom:1px solid;
+                border-left:1px solid;
+                border-right:1px solid;
+                -moz-border-radius: 8px;
+                -webkit-border-radius: 8px;
+        }
+    </style>--%>
     <style type="text/css">
+        body {background-color: palegoldenrod;}
         .auto-style1 {
             width: 500px;
         }

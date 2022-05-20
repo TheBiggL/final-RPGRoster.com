@@ -100,4 +100,13 @@ C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster
 C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\obj\Debug\RPGRoster.com.csproj.CopyComplete
 C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\obj\Debug\RPGRoster.com.dll
 C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\obj\Debug\RPGRoster.com.pdb
-C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\obj\Debug\RPGRoster.com.csproj.AssemblyReference.cache
+C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\bin\BCrypt.Net-Next.dll
+C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\bin\System.Buffers.dll
+C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\bin\System.Memory.dll
+C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\bin\System.Numerics.Vectors.dll
+C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\bin\BCrypt.Net-Next.xml
+C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\bin\System.Buffers.xml
+C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\bin\System.Memory.xml
+C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\bin\System.Numerics.Vectors.xml
+C:\Users\Andryad\Desktop\RPGRoster.com\RPGRoster.com\RPGRoster.com fin\RPGRoster.com\RPGRoster.com\bin\System.Runtime.CompilerServices.Unsafe.xml

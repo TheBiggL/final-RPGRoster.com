@@ -1,7 +1,9 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="RPGRoster.com._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
+    <style>
+    body {background-color: palegoldenrod;}
+        </style>
     <div class="jumbotron">
         <h1>What are Rosters?</h1>
         <p class="lead">Within this site a Roster is a collection of user implimented data that allows Players to keep track of their friends and fellow guildmates progress.</p>

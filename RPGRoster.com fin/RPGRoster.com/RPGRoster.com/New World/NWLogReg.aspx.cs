@@ -16,12 +16,12 @@ namespace RPGRoster.com.New_World
 
 		protected void NWRegBtn_Click(object sender, EventArgs e)
 		{
-			Response.Redirect("NWRegister.aspx");
+			Response.Redirect("NWRegisterNew.aspx");
 		}
 
 		protected void NWLogBtn_Click(object sender, EventArgs e)
 		{
-			Response.Redirect("NWLogin.aspx");
+			Response.Redirect("NWLoginNew.aspx");
 		}
 	}
 }
